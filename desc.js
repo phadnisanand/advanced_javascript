@@ -24,3 +24,11 @@
 
 // const {name, year} = car;
 // console.log(name , year)
+
+const data = [10,20,30,40,50];
+console.log(data);
+
+let [testdata,testdata2,...pending] = [...data];
+console.log(testdata);
+console.log(testdata2);
+console.log(pending);
