@@ -20,3 +20,8 @@ https://www.youtube.com/watch?v=_va80fTQnk4
 
 JavaScript-100-objective-based-questions
 https://github.com/anil-sidhu/JavaScript-100-objective-based-questions
+
+Get query string parameter value in javascript
+var query_string1 = new URLSearchParams(window.location.search); 
+var query_string_term = query_string1.get('q');
+console.log(query_string_term);
