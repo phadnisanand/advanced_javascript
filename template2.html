@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div><button id="addmore">Add Guest</button></div>
+      <div id = "app">
+          <div class = "entryBox">
+              <label>Guest Name:</label>
+              <input type="text" placeholder="Enter name" />
+              <button class="deletebtn">Delete</button>
+          </div>
+      </div>
+
+      <template id = "temp">
+        <div class = "entryBox">
+          <label>Guest Name:</label>
+          <input type="text" placeholder="Enter name" />
+          <button class="deletebtn">Delete</button>
+        </div>
+      </template>
+
+      <script>
+          function addBox() {
+              var temp = document.getElementById('temp').content;
+              var copy = document.importNode(temp , true);
+              document.getElementById('app').appendChild(copy);
+          }
+
+          function deleteBox(e) {
+            if(e.target.classList.contains('deletebtn')) {
+               e.target.parentElement.remove();
+            }
+          }
+          document.getElementById('addmore').addEventListener("click", addBox);
+          document.getElementById('app').addEventListener("click", deleteBox);
+      </script>
+</body>
+</html>

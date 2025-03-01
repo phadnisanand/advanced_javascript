@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="test1" data-exact-amount="4.5">Test data 1</div>
+  <div id="test2" data-exact-amount="5">Test data 2</div>
+  <div id="test3" data-exact-amount="6">Test data 3</div>
+  <div id="test4" data-exact-amount="10">Test data 4</div>
+  <script>
+    // get or set data attribute
+    var data1 = document.querySelector('#test1').dataset.exactAmount;
+    var data2 = document.querySelector('#test2').dataset.exactAmount;
+    console.log('data1', data1)
+    console.log('data2', data2)
+
+    // set attribute
+    document.querySelector('#test1').dataset.exactNumber = 10;
+    document.querySelector('#test2').dataset.exactNumber = 20;
+    document.querySelector('#test3').dataset.exactNumber = 30;
+    document.querySelector('#test4').dataset.exactNumber = 40;
+
+    // get new
+     var dataexactNumber  = document.querySelector('#test4').dataset.exactNumber;
+     console.log('dataexactNumber', dataexactNumber)
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+    <template id="sample">
+        <div>
+            <h1 class="title"></h1>
+            <p class="desc"></p>
+            <small class="category"></small>
+            <div ><strong class="date"></strong> -<span class="topic"></span></div>
+        </div>
+    </template>
+
+    <script>
+        var temp1 = document.getElementById('sample').content;
+        var copyHTML = document.importNode(temp1, true);
+        copyHTML.querySelector('.title').textContent = 'My Title';
+        copyHTML.querySelector('.desc').textContent = 'My Description';
+        copyHTML.querySelector('.category').textContent = 'My Category';
+        copyHTML.querySelector('.date').textContent = '01-03-2025';
+        copyHTML.querySelector('.topic').textContent = 'My topic';
+        document.getElementById('app').appendChild(copyHTML)
+    </script>
+</body>
+</html>
