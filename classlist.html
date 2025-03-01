@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .newCustom {
+       background-color:  red;
+       color: white;
+    }
+    .newCustom2 {
+      background-color:  blue;
+      color: white;
+    }
+
+  </style>
+
+</head>
+<body>
+    <p id="customp" class="newCustom">Text content</p>
+    <button id="button">Click here</button>
+
+    <script>
+      function changeClass() {
+          document.getElementById('customp').classList.add('newCustom2');
+      }
+       document.getElementById('button').addEventListener("click", changeClass);
+    </script>
+</body>
+</html>
