@@ -19,13 +19,17 @@
 </head>
 <body>
     <p id="customp" class="newCustom">Text content</p>
-    <button id="button">Click here</button>
-
+    <button id="button1">Add Class</button>
+    <button id="button2">Remove Class</button>
     <script>
       function changeClass() {
           document.getElementById('customp').classList.add('newCustom2');
       }
-       document.getElementById('button').addEventListener("click", changeClass);
+      function changeClass2() {
+          document.getElementById('customp').classList.remove('newCustom2');
+      }
+       document.getElementById('button1').addEventListener("click", changeClass);
+       document.getElementById('button2').addEventListener("click", changeClass2);
     </script>
 </body>
 </html>
