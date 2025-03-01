@@ -25,3 +25,8 @@ Get query string parameter value in javascript
 var query_string1 = new URLSearchParams(window.location.search); 
 var query_string_term = query_string1.get('q');
 console.log(query_string_term);
+
+FormData object-
+https://medium.com/@aayushpatniya1999/formdata-vs-json-payload-in-javascript-api-calls-a-comprehensive-guide-for-developers-9ac61e4d45e7
+https://www.freecodecamp.org/news/formdata-explained/
+https://www.techiediaries.com/react-formdata-file-upload-multipart-form-tutorial/
