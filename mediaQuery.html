@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Media Queries using Javascript</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: darkCyan;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+</body>
+<script>
+    // javascript code to match media queries
+    let media = () => {
+        let queries = matchMedia("(max-width:600px)");
+        if (queries.matches) {
+            document.querySelector("body").style.flexDirection = "column";
+			const highlightedItems = document.querySelectorAll("body div");
+			highlightedItems.forEach((div) => {
+			   div.style.marginBottom = "20px";
+			});
+
+        } else {
+            document.querySelector("body").style.flexDirection = "row";
+        }
+    }
+    onload = media;
+    onresize = media;
+</script>
+
+</html>
