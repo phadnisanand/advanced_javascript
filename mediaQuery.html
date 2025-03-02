@@ -46,9 +46,24 @@
         } else {
             document.querySelector("body").style.flexDirection = "row";
         }
+		
+		
+		window.matchMedia("(orientation: portrait)").addEventListener("change", e => {
+		const portrait = e.matches;
+
+		if (portrait) {
+			console.log('portrait mode');
+		} else {
+			console.log('landscape mode');
+		}
+	});
     }
+	
+	
     onload = media;
     onresize = media;
+	
+	
 </script>
 
 </html>
