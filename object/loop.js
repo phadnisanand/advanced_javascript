@@ -33,3 +33,7 @@
 //     const value = entry[1];
 //     console.log(key, value)
 // })
+
+const obj1 = {'name' : 'Anand'};
+const obj2 = {'name' : 'Nutan'};
+console.log(obj1, obj2);
