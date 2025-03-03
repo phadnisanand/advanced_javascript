@@ -107,3 +107,16 @@ below are falsy values in javascript-
 4. ""(empty string)
 5. NaN
 6. 0
+
+
+
+https://www.geeksforgeeks.org/javascript-nullish-coalescing-operator/
+https://www.freecodecamp.org/news/nullish-coalescing-operator-in-javascript/
+https://builtin.com/software-engineering-perspectives/javascript-check-if-object-is-empty
+https://www.freecodecamp.org/news/javascript-advanced-operators/
+https://www.geeksforgeeks.org/javascript-nullish-coalescing-operator/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_assignment
+https://www.freecodecamp.org/news/javascript-advanced-operators/
+1) The nullish coalescing ( ?? )
+2) Optional Chaining
+3) Destructuring Assignment
