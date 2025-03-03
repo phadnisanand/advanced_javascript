@@ -99,3 +99,6 @@ https://www.youtube.com/playlist?list=PLyuRouwmQCjnupe_ohQgFvwFZF8dycwK8
 https://www.youtube.com/@SteveGriffith-Prof3ssorSt3v3/playlists
 
 https://www.youtube.com/playlist?list=PLfEr2kn3s-bo4LwlbyZugHPavhcdW8YMC imp
+Truthy / Falsy values javascript
+below are falsy values in javascript-
+1) 0 2) empty string '' 3) NaN  4) undefined 5) null
