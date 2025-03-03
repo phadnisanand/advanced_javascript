@@ -135,3 +135,11 @@ https://www.freecodecamp.org/news/here-are-examples-of-everything-new-in-ecmascr
 https://www.freecodecamp.org/news/some-of-javascripts-most-useful-features-can-be-tricky-let-me-explain-them-4003d7bbed32/
 https://www.freecodecamp.org/news/tag/javascript/
 https://www.youtube.com/watch?v=cbUQoAxUbz4&list=PL8p2I9GklV45z6Cov4omIOsbptPR1kxpg
+
+
+https://www.geeksforgeeks.org/primitive-and-non-primitive-data-types-in-javascript/
+primitive data-type-
+1) Number 2) String 3) Undefined 4) Boolean 5) Null 6) BigInt 7) Symbol
+Non-primitive data-type
+1) Object 2) Array
+
