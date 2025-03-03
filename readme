@@ -120,3 +120,13 @@ https://www.freecodecamp.org/news/javascript-advanced-operators/
 1) The nullish coalescing ( ?? )
 2) Optional Chaining
 3) Destructuring Assignment
+
+
+https://medium.com/simform-engineering/iterators-and-generators-in-javascript-22da731b7fe3
+https://www.qed42.com/insights/implementing-iterators-and-generators-in-javascript#introduction
+https://www.freecodecamp.org/news/some-of-javascripts-most-useful-features-can-be-tricky-let-me-explain-them-4003d7bbed32/
+1) JavaScript Symbols
+2) Iterators
+3) Generators
+4) Async/Await
+5) 
