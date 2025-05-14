@@ -20,6 +20,7 @@ class Calculator {
     this.data = this.data / val;
     return this;
   }
+
   display() {
     return this.data;
   }
