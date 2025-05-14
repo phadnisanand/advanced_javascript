@@ -1,7 +1,7 @@
 // prototype -> All JavaScript objects inherit properties and methods from a prototype.
 //Prototypes are the mechanism by which JavaScript objects inherit features from one another.
 // https://www.w3schools.com/js/js_object_prototypes.asp
-
+// imp https://www.youtube.com/watch?v=6b601MrVEi0
 // add methods properties to global
 
 String.prototype.myProp = "this is custom property";
