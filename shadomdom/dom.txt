@@ -12,3 +12,37 @@ https://www.blog.duomly.com/what-is-the-difference-between-shadow-dom-and-virtua
 https://javascript.info/shadow-dom
 https://medium.com/front-end-weekly/shadow-dom-implementation-in-javascript-1a3cc8c01687
 https://web.dev/articles/video-and-source-tags
+
+
+what is DOM?
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+The Document Object Model (DOM) is a programming interface for web documents.
+It represents the page so that programs can change the document structure, style, and content. 
+The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+The DOM represents the HTML page as a tree-like structure, where each element in the HTML document is an object. 
+JavaScript can use the DOM to: 
+Create new elements. 
+Change the content of existing elements. 
+Modify the structure of the document (e.g., add, remove, or reorder elements). 
+Update the style of elements (e.g., change colors, fonts, layout). 
+Add event listeners to elements to respond to user actions (e.g., clicks, mouseovers). 
+
+
+Browser Object Model (BOM) ?
+https://www.geeksforgeeks.org/browser-object-model/
+The Browser Object Model (BOM) in JavaScript helps to interact with the browser, not just the webpage. While the DOM handles the content of the page, BOM gives you control over things like the browser window, the URL, and the history.
+The Browser Object Model (BOM) in JavaScript enables developers to interact with the browser beyond just the webpage content, offering control over essential features such as the browser window, URL (location), and browsing history.
+
+Shadow DOM ->
+https://www.imperva.com/learn/application-security/shadow-dom/
+https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM
+Shadow DOM is a web standard that offers a way to encapsulate style and markup in web components. It is a part of the Web Components standard, which also includes HTML templates, Custom Elements, and HTML imports.
+Shadow DOM is a term used to describe a limited or restricted view of the DOM tree.
+Unlike the Virtual DOM, which is a concept used to optimize performance, Shadow DOM refers to a specific structure within the DOM tree itself.
+ a video player on a web page employs shadow DOM to isolate its controls like play, pause, and volume slider
+
+
+virtual DOM-
+The virtual DOM is a lightweight copy of the real DOM that allows React to manage changes more efficiently by minimizing the direct manipulation required on the real DOM. This process significantly enhances the performance of web apps.
+https://www.freecodecamp.org/news/what-is-the-virtual-dom-in-react/
+The virtual DOM is an in-memory representation of the real DOM elements. Instead of interacting directly with the real DOM, which can be slow and costly in terms of performance, React creates a virtual representation of the UI components. This virtual representation is a lightweight JavaScript object that mirrors the structure of the real DOM.
