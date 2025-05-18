@@ -1,0 +1,4 @@
+
+https://www.freecodecamp.org/news/javascript-classes-how-they-work-with-use-case/
+https://www.w3schools.com/js/js_classes.asp
+https://javascript.info/classes
