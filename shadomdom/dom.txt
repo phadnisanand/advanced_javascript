@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=7Tok22qxPzQ
+https://www.youtube.com/watch?v=l71h0IAYtck
+https://roadmap.sh/videos/what-is-dom-shadow-dom-virtual-dom
+
+shadom dom -> web components custom components
+virtual dom -> create abstraction on top on top of real dom . used by react.js vue.js
+normal dom  -> issues with performance 
+https://www.blog.duomly.com/what-is-the-difference-between-shadow-dom-and-virtual-dom/
+
+
+
+https://javascript.info/shadow-dom
+https://medium.com/front-end-weekly/shadow-dom-implementation-in-javascript-1a3cc8c01687
+https://web.dev/articles/video-and-source-tags
