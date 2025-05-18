@@ -2,3 +2,15 @@
 https://www.freecodecamp.org/news/javascript-classes-how-they-work-with-use-case/
 https://www.w3schools.com/js/js_classes.asp
 https://javascript.info/classes
+
+
+https://medium.com/@akxay/javascript-string-methods-5588830241ed
+https://medium.com/@akxay/the-essential-guide-to-javascript-methods-for-modern-web-development-23e4dc89408d
+
+
+splice vs slice javascript->
+https://www.freecodecamp.org/news/javascript-slice-and-splice-how-to-use-the-slice-and-splice-js-array-methods/
+
+1)  The splice() method will change the contents of the original array. The splice() method is used to add or remove elements of an existing array and the return value will be the removed items from the array.
+
+2) The slice() method can be used to create a copy of an array or return a portion of an array. It is important to note that the slice() method does not alter the original array but instead creates a shallow copy.
