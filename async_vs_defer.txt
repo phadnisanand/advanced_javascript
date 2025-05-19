@@ -1,8 +1,15 @@
-async and defer are boolean attributes that can be added to the <script> tag in HTML to modify how external JavaScript files are loaded and executed. They are used to prevent JavaScript from blocking the parsing of HTML, improving page load performance.
+async and defer are boolean attributes that can be added to the <script> tag in HTML to modify how external JavaScript files are loaded and executed.
+They are used to prevent JavaScript from blocking the parsing of HTML, improving page load performance.
 
 
 async:
-When the async attribute is present, the script is downloaded asynchronously in the background, without blocking HTML parsing. Once the download is complete, the script is executed immediately. The order of execution is not guaranteed for async scripts. It's suitable for scripts that are independent and don't rely on each other.
+When the async attribute is present, the script is downloaded asynchronously in the background, without blocking HTML parsing. 
+Once the download is complete, the script is executed immediately. The order of execution is not guaranteed for async scripts. 
+It's suitable for scripts that are independent and don't rely on each other.
 
 defer:
-The defer attribute also downloads the script asynchronously without blocking HTML parsing. However, it differs from async in that it waits for the HTML parsing to complete before executing the script. The scripts are executed in the order they appear in the HTML document. It's best used for scripts that depend on the DOM or other scripts. 
+The defer attribute also downloads the script asynchronously without blocking HTML parsing. However, it differs from async
+in that it waits for the HTML parsing to complete before executing the script. The scripts are executed in the order they
+appear in the HTML document. It's best used for scripts that depend on the DOM or other scripts. 
+
+If neither is present, the script will block HTML parsing while it downloads and executes.
