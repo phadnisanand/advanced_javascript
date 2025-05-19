@@ -1,0 +1,45 @@
+// https://www.youtube.com/watch?v=75W8UPQ5l7k&list=PLlasXeu85E9eV5xUEgrWUB8NAUvNZGsK0&index=7
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    let name = {
+      "firstname": "Akshay",
+      "lastname": "saini"
+    }
+
+    let printFullName = function(hometown, state) {
+        console.log(this.firstname + ' ' + this.lastname + '  ' + hometown+  '  ' + state)
+      }
+
+    //name.printFullName();
+    printFullName.call(name,"nagpur", "maharashtra");
+
+    let name2 = {
+      "firstname": "neha",
+      "lastname": "dhupia"
+    }
+
+    printFullName.apply(name2, ["mumbai", "maharashtra"]);
+
+    // Function borrowing
+    //name.printFullName.call(name2);
+
+    let name3 = {
+        "firstname": "test",
+        "lastname": "testing"
+      }
+
+    let printMyName = printFullName.bind(name3, "sausar", "MP");
+    printMyName();
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>
