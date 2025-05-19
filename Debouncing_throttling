@@ -1,4 +1,5 @@
-Debouncing->  Debouncing is a programming technique used to control how often a function is executed, especially in situations where events fire rapidly, like user input or window resizing. It delays the execution of a function until a certain amount of time has passed without any further calls, effectively preventing performance issues caused by excessive function calls. 
+Debouncing->  Debouncing is a programming technique used to control how often a function is executed, especially in situations where 
+events fire rapidly, like user input or window resizing. It delays the execution of a function until a certain amount of time has passed without any further calls, effectively preventing performance issues caused by excessive function calls. 
 https://www.geeksforgeeks.org/debouncing-in-javascript/
 
 Debouncing in JavaScript can be defined as the technique that is used to limit the number of times a function gets executed.
